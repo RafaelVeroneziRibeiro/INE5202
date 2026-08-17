@@ -1,36 +1,32 @@
-# INE5202 - Numerical Calculus in Computers 🧮
+# INE5202 - Numerical Calculus in Computers 
 
 [![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-green)](#)
+[![Status](https://img.shields.io/badge/Status-DONE-green)](#)
 
 This repository contains the practical assignments, algorithms, and projects developed for the **INE5202 - Numerical Calculus in Computers** course. The focus of this repository is strictly on the practical implementations of numerical methods to solve mathematical problems computationally.
 
-## 📚 About the Course
-Numerical Calculus provides the foundation for solving complex mathematical models that cannot be solved analytically. Throughout this course, several algorithms were implemented from scratch to understand their inner workings, efficiency, and limitations.
+##  About the Course
+The course covers fundamental concepts of numerical analysis, including error analysis, finding roots of equations, solving linear and non-linear systems, curve fitting, interpolation, numerical integration, and solving ordinary differential equations (ODEs)[cite: 2]. 
 
-## 🛠️ Technologies & Libraries
-All activities were implemented in **Python**, heavily relying on mathematical and scientific computing libraries:
-*   `Python 3.x`
-*   `NumPy` (Array manipulation and mathematical operations)
-*   `Matplotlib` / `Seaborn` (Data visualization and plotting)
-*   `SciPy` (Scientific computing) *(Add or remove depending on what you used)*
+All algorithms were implemented from scratch in **Python**, utilizing libraries such as `NumPy`, `SciPy`, and `Matplotlib` for scientific computing and data visualization.
+##  Repository Structure
 
-## 📂 Repository Structure
-
-The repository is organized by practical assignments. Each folder contains the source code for the activity and its specific documentation.
-
-*   📁 **[Activity_01_Algebraic_Equations](./Activity_01_Algebraic_Equations/)**
-    *   Implementation of numerical methods to find roots of algebraic and transcendental equations.
-*   📁 **[Activity_02_Name_of_Topic](./Activity_02_Name_of_Topic/)**
-    *   *Description of the topic...*
-*   📁 **[Final_Project](./Final_Project/)** *(Coming soon)*
-    *   *Description of the final project...*
+*   ### AP1: Algebraic Equations
+    *   Root-finding algorithms including False Position, Horner's method for polynomials, and Newton's method (with modifications for multiple roots)[cite: 7].
+*   ### AP2: Linear Systems
+    *   Gaussian elimination for sparse/tridiagonal systems and condition number analysis of ill-conditioned systems (Hilbert matrices)[cite: 6].
+*   ### AP3: Iterative Linear Systems
+    *   Implementation of the Successive Over-Relaxation (SOR) and Gauss-Seidel methods.
+*   ### AP4: Non Linear Systems
+    *   Solving systems of non-linear equations using Successive Approximations, Newton's Method, and Modified Newton's Method[cite: 5].
+*   ### AP5: Non Linear Least Squares
+    *   Curve fitting using Gauss-Newton and linearized Least Squares to model planetary orbits (Kepler's laws).
+*   ### AP6: Interpolation Integration
+    *   Polynomial interpolation via Newton's Divided Differences and numerical integration using the Trapezoidal Rule[cite: 4].
+*   ### AP7: Ordinary Differential Equations
+    *   Solving Initial Value Problems (IVPs) using Euler (RK1), RK2, and RK4 methods, applied to the Lotka-Volterra predator-prey model[cite: 3].
+*   ### EP: Machine Learning
+    *   Final Project: Linear regression (one and multiple variables) using the normal equation to predict housing prices and business profits[cite: 1].
 
 > **Note:** Navigate to each folder to read its specific `README.md` for detailed information about the problem statements, methods used, and instructions on how to run the code.
 
-## ⚙️ How to Run
-To run any of the scripts locally, clone this repository and ensure you have Python installed along with the required libraries.
-
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/your-username/INE5202.git](https://github.com/your-username/INE5202.git)
