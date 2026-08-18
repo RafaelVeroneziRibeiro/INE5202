@@ -1,7 +1,7 @@
 # INE5202 - Numerical Calculus in Computers 
 
 [![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/Status-DONE-green)](#)
+[![Status](https://img.shields.io/badge/Status-Completed-success)](#)
 
 This repository contains the practical assignments, algorithms, and projects developed for the **INE5202 - Numerical Calculus in Computers** course. The focus of this repository is strictly on the practical implementations of numerical methods to solve mathematical problems computationally.
 
